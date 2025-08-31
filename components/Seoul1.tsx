@@ -47,6 +47,16 @@ export default function Seoul1() {
           alt="2025. 09. 14. 15:00 KST 서울특별시 성동구 상원길 26 튜링의 사과"
         />
         <a
+          href="https://event-us.kr/hackerspubseoul/event/110961"
+          className="w-1/4 absolute right-[5%] bottom-[18%]"
+        >
+          <img
+            src="/1st-meatup-eventus-qrcode.svg"
+            className="h-full w-full"
+            alt="EventUs QR Code"
+          />
+        </a>
+        <a
           href="https://hackers.pub/@jakeseo"
           className="h-[5%] absolute right-[5%] bottom-[12%]"
         >
