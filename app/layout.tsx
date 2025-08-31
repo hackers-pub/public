@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Nanum_Gothic, Chewy } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -10,6 +10,16 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+const nanumGothic = Nanum_Gothic({
+  variable: "--font-nanum-gothic",
+  weight: ["400", "800"],
+});
+
+const chewy = Chewy({
+  variable: "--font-chewy",
+  weight: ["400"],
 });
 
 export const metadata: Metadata = {
@@ -25,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${nanumGothic.variable} ${chewy.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
       </body>
