@@ -8,7 +8,7 @@ export default function Seoul1() {
         />
         <img
           src="/hackers-star.svg"
-          className="absolute w-1/12 left-[10%] top-1/2 rotate-[30deg] animate-wiggle"
+          className="absolute w-1/12 left-[18%] top-1/2 rotate-[30deg] animate-wiggle"
         />
         <img
           src="/hackers-star.svg"
@@ -43,7 +43,7 @@ export default function Seoul1() {
         />
         <img
           src="/1st-meetup-date-pos.svg"
-          className="w-7/12 absolute left-[5%] top-[58%]"
+          className="w-7/12 absolute left-[5%] bottom-[28%]"
           alt="2025. 09. 14. 15:00 KST 서울특별시 성동구 상원길 26 튜링의 사과"
         />
         <a

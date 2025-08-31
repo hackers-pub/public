@@ -38,7 +38,8 @@
      inkscape:document-units="mm" /><g
      inkscape:groupmode="layer"
      id="layer7"
-     inkscape:label="Layer 1"><rect
+     inkscape:label="Layer 1"
+     transform="matrix(1.1111111,0,0,1.1111111,-55.555556,-55.555555)"><rect
        style="fill:#ffffff;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round"
        id="rect1239"
        width="900"
@@ -56,11 +57,11 @@
        inkscape:groupmode="layer"
        id="layer6"
        inkscape:label="Layer 2"><circle
-         cx="250.0"
-         cy="90.0"
+         cx="250"
+         cy="90"
          r="9.090909"
-         fill="rgb(0,0,0)"
-         opacity="1.0"
+         fill="#000000"
+         opacity="1"
          id="circle1"
          transform="scale(2.0408164)" /><rect
          x="130.2683"

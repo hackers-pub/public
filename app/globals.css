@@ -36,8 +36,8 @@ body {
       transform: rotate(3deg);
     }
   }
-  --animate-anti-wiggle: wiggle 1s ease-in-out infinite;
-  @keyframes wiggle {
+  --animate-anti-wiggle: anti-wiggle 1s ease-in-out infinite;
+  @keyframes anti-wiggle {
     0%,
     100% {
       transform: rotate(3deg);
