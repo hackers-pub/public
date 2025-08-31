@@ -4,28 +4,28 @@ export default async function Page() {
       <article className="w-full h-full max-w-[calc(100vh*210/297)] max-h-[calc(100vw*297/210)] aspect-[210/297] relative">
         <img
           src="/hackers-star.svg"
-          className="absolute w-1/12 right-[15%] top-[15%] rotate-[-30deg]"
+          className="absolute w-1/12 right-[15%] top-[15%] rotate-[-30deg] animate-wiggle"
         />
         <img
           src="/hackers-star.svg"
-          className="absolute w-1/12 left-[10%] top-1/2 rotate-[30deg]"
+          className="absolute w-1/12 left-[10%] top-1/2 rotate-[30deg] animate-wiggle"
         />
         <img
           src="/hackers-star.svg"
-          className="absolute w-1/12 right-[16%] bottom-[30%] rotate-[135deg]"
+          className="absolute w-1/12 right-[16%] bottom-[30%] rotate-[135deg] animate-wiggle"
         />
         <img
           src="/hackers-star.svg"
-          className="absolute w-1/12 left-[33%] bottom-[26%] rotate-[-135deg]"
+          className="absolute w-1/12 left-[40%] bottom-[23%] rotate-[-135deg] animate-wiggle"
         />
         <img
           src="/hackers-star.svg"
-          className="absolute w-1/12 left-[5%] bottom-[5%] rotate-[-45deg]"
+          className="absolute w-1/12 left-[10%] bottom-[15%] rotate-[-45deg] animate-wiggle"
         />
         <img
           src="/hackers-star.svg"
           id="hackers-public-star"
-          className="absolute w-1/12 right-[40%] top-[22%]"
+          className="absolute w-1/12 right-[40%] top-[22%] animate-wiggle"
         />
         <img
           src="/hackers-public.svg"
@@ -34,7 +34,7 @@ export default async function Page() {
         />
         <img
           src="/hackers-ufo.svg"
-          className="w-1/2 absolute right-[5%] top-1/4"
+          className="w-1/2 absolute right-[5%] top-1/4 animate-wiggle"
         />
         <p
           className="absolute top-[30%] left-[5%] font-[Chewy] leading-tight"
@@ -56,7 +56,7 @@ export default async function Page() {
         </p>
 
         <div
-          className="absolute bottom-[8%] right-[5%] text-right font-[Nanum_Gothic]"
+          className="absolute bottom-[5%] right-[5%] text-right font-[Nanum_Gothic]"
           style={{ fontSize: "clamp(0.5rem, 2.5vw, 1.125rem)" }}
         >
           <p>
