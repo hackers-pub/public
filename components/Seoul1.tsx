@@ -12,11 +12,11 @@ export default function Seoul1() {
         />
         <img
           src="/hackers-star.svg"
-          className="absolute w-1/12 right-[16%] bottom-[30%] rotate-[135deg] animate-wiggle"
+          className="absolute w-1/12 right-[16%] bottom-[38%] rotate-[135deg] animate-wiggle"
         />
         <img
           src="/hackers-star.svg"
-          className="absolute w-1/12 left-[40%] bottom-[23%] rotate-[-135deg] animate-wiggle"
+          className="absolute w-1/12 left-[45%] bottom-[23%] rotate-[-135deg] animate-wiggle"
         />
         <img
           src="/hackers-star.svg"
@@ -34,7 +34,7 @@ export default function Seoul1() {
         />
         <img
           src="/hackers-ufo.svg"
-          className="w-1/2 absolute right-[5%] top-1/4 animate-wiggle"
+          className="w-1/2 absolute right-[5%] top-1/4 animate-anti-wiggle"
         />
         <img
           src="/1st-meetup-seoul.svg"
@@ -43,7 +43,7 @@ export default function Seoul1() {
         />
         <img
           src="/1st-meetup-date-pos.svg"
-          className="w-1/2 absolute left-[5%] top-[58%]"
+          className="w-7/12 absolute left-[5%] top-[58%]"
           alt="2025. 09. 14. 15:00 KST 서울특별시 성동구 상원길 26 튜링의 사과"
         />
         <a
@@ -64,7 +64,7 @@ export default function Seoul1() {
             src="/1st-meetup-session1.svg"
             className="h-full"
             alt="Code As A Canvas : 코드에서 예술작품이 되기까지 (@jakeseo@hackers.pub)"
-          />{" "}
+          />
         </a>
         <hr className="my-2 color-white w-[45%] absolute right-[5%] bottom-[10%]" />
         <a
