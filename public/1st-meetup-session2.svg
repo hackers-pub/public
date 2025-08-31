@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1040.9397mm"
+   height="79.26899mm"
+   viewBox="0 0 1040.9397 79.26899"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(3.4760942e-5)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:35.2777px;font-family:NanumGothic;-inkscape-font-specification:'NanumGothic Bold';text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round"
+       x="1041.2219"
+       y="29.7391"
+       id="text9"><tspan
+         id="tspan9"
+         style="fill:#ffffff;fill-opacity:1;stroke-width:0"
+         x="1041.2219"
+         y="29.7391">폰트는 어떻게 만들어지는가 - NeoDGM 사례로 살펴보는 개발 후일담</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:NanumGothic;-inkscape-font-specification:NanumGothic;fill:#ffffff;fill-opacity:1;stroke-width:0"
+         x="1041.2219"
+         y="73.83622"
+         id="tspan10">(@dalgona@hackers.pub)</tspan></text>
+  </g>
+</svg>

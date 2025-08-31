@@ -1,5 +1,5 @@
 import Seoul1 from "@/components/Seoul1";
 
-export default async function Page() {
+export default function Home() {
   return <Seoul1 />;
 }
