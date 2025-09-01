@@ -41,11 +41,6 @@ export default function Seoul1() {
           className="w-[40%] absolute left-[5%] top-[33%]"
           alt="1st Meetup at Seoul"
         />
-        <img
-          src="/1st-meetup-date-pos.svg"
-          className="w-7/12 absolute left-[5%] bottom-[28%]"
-          alt="2025. 09. 14. 15:00 KST 서울특별시 성동구 상원길 26 튜링의 사과"
-        />
         <a
           href="https://event-us.kr/hackerspubseoul/event/110961"
           className="w-1/4 absolute right-[5%] bottom-[18%]"
