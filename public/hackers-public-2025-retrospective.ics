@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hackers Public//Event//EN
+BEGIN:VEVENT
+DTSTART:20251221T050000Z
+DTEND:20251221T093000Z
+SUMMARY:Hackers' Public 2025 Retrospective and Lightning Talk
+DESCRIPTION:Hackers' Public 2025 회고 및 라이트닝 토크
+LOCATION:서울 서대문구 연희로2길 76\, 한빛빌딩 A동 2층 강의실40
+URL:https://event-us.kr/hackerspubseoul/event/117468
+UID:2025-retrospective@hackers.pub
+END:VEVENT
+END:VCALENDAR

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Chewy&family=Nanum+Gothic&display=swap");
 @import "tailwindcss";
 
 :root {
@@ -26,6 +27,8 @@ body {
 }
 
 @theme {
+  --font-nanum-gothic: "Nanum Gothic";
+  --font-chewy: "Chewy", Arial, Helvetica, sans-serif;
   --animate-wiggle: wiggle 1s ease-in-out infinite;
   @keyframes wiggle {
     0%,
