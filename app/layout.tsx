@@ -8,6 +8,9 @@ export const metadata: Metadata = {
     template: "Hackers' Public %s",
   },
   description: "Hackers' Public",
+  openGraph: {
+    images: ["https://public.hackers.pub/2025/end"],
+  },
 };
 
 export default function RootLayout({

@@ -1,5 +1,5 @@
-import Seoul1 from "@/components/Seoul1";
+import End2025 from "@/components/End2025";
 
-export default function Home() {
-  return <Seoul1 />;
+export default async function Page() {
+  return <End2025 />;
 }
