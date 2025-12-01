@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://public.hackers.pub"),
   title: {
     default: "Hackers' Public",
     template: "Hackers' Public %s",
