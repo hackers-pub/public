@@ -84,7 +84,7 @@ function DatePos() {
 function QRCode() {
   return (
     <a
-      href="https://hackers.pub/@kodingwarrior/invite/019904e6-0f62-77d4-98cc-61a7eee47f78"
+      href="https://hackers.pub/@kodingwarrior/invite/019abefd-afa2-744a-ba4d-34af1ba2bb87"
       className="w-1/4 absolute right-[5%] bottom-[5%]"
       target="_blank"
     >
