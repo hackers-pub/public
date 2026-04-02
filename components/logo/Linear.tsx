@@ -5,7 +5,7 @@ export default function Linear({ className }: { className?: string }) {
       <img
         src="/hackers-star.svg"
         id="hackers-public-star"
-        className="absolute h-1/2 -right-[8%] top-[30%] animate-wiggle -rotate-90"
+        className="absolute w-1/12 -right-[7%] top-[35%] animate-wiggle"
       />
     </div>
   );
