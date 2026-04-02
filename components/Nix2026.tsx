@@ -27,7 +27,7 @@ export default function End2025() {
 function NixStar({ className }: { className?: string }) {
   return (
     <img
-      src="/nixos-logo/flake.svg"
+      src="/nixos/flake.svg"
       className={`absolute w-1/12 animate-wiggle ${className}`}
     />
   );
@@ -44,13 +44,13 @@ function Subtitle({ className }: { className?: string }) {
 }
 
 function NixHor({ className }: { className?: string }) {
-  return <img src="/nixos-logo/horizontal.svg" className={className} />;
+  return <img src="/nixos/horizontal.svg" className={className} />;
 }
 
 function DatePos({ className }: { className?: string }) {
   return (
     <a
-      href="/nixos-2026.ics"
+      href="/calendar/nixos-2026.ics"
       download
       className={`cursor-pointer hover:opacity-80 transition-opacity ${className}`}
     >

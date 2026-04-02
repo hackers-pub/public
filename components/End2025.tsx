@@ -21,7 +21,7 @@ export default function End2025() {
 function LightningSanta() {
   return (
     <img
-      src="/2025-retrospective-lightening-santa.svg"
+      src="/2025-retrospective/lightening-santa.svg"
       className="w-[120%] absolute rotate-[-20deg] left-[5%] bottom-[10%] origin-[25%_50%] animate-wiggle"
     />
   );
@@ -30,7 +30,7 @@ function LightningSanta() {
 function Star({ className }: { className?: string }) {
   return (
     <img
-      src="/hackers-star.svg"
+      src="/hackers-public/star.svg"
       className={`absolute w-1/12 animate-wiggle ${className}`}
     />
   );
@@ -39,7 +39,7 @@ function Star({ className }: { className?: string }) {
 function HackersPublicStar() {
   return (
     <img
-      src="/hackers-star.svg"
+      src="/hackers-public/star.svg"
       id="hackers-public-star"
       className="absolute w-1/12 right-[40%] top-[22%] animate-wiggle"
     />
@@ -49,7 +49,7 @@ function HackersPublicStar() {
 function HackersPublic() {
   return (
     <img
-      src="/hackers-public.svg"
+      src="/hackers-public/logo.svg"
       className="w-2/3 absolute left-[5%] top-[5%]"
       alt="Hackers' Public"
     />
@@ -59,7 +59,7 @@ function Subtitle() {
   return (
     <img
       className="absolute left-[5%] top-[31%] w-7/12"
-      src="/2025-retrospective-and-lightning-talk.svg"
+      src="/2025-retrospective/subtitle.svg"
       alt="2025 Retrospective and Lightning Talk"
     />
   );
@@ -68,12 +68,12 @@ function Subtitle() {
 function DatePos() {
   return (
     <a
-      href="/hackers-public-2025-retrospective.ics"
+      href="/calendar/2025-retrospective.ics"
       download
       className="absolute left-[5%] top-[42%] w-5/12 cursor-pointer hover:opacity-80 transition-opacity"
     >
       <img
-        src="/2025-retrospective-date-pos.svg"
+        src="/2025-retrospective/date-pos.svg"
         alt="2025년 12월 21일 14:00 KST, 서울 서대문구 연희로2길 76, 한빛빌딩 A동 2층 강의실40 - 클릭하여 캘린더에 추가"
         className="w-full"
       />
@@ -89,7 +89,7 @@ function QRCode() {
       target="_blank"
     >
       <img
-        src="/2025-retrospective-qrcode.svg"
+        src="/2025-retrospective/qrcode.svg"
         className="h-full w-full"
         alt="Invite QR Code"
       />

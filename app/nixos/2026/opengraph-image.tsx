@@ -6,7 +6,7 @@ export const dynamic = "force-static";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 export const alt =
-  "Hackers' Public 2026 NixOS Workshop - NixOS 왜 안 쓰닋? 2026년 04월 19일 14:00~18:00 KST";
+  "Hackers' Public 2026 NixOS Workshop - NixOS 왜 안 쓰닋? 2026년 04월 19일 14:00~18:00 KST 서울 성동구 상원길 26 밀크빌딩 지하1층 튜링의 사과";
 
 async function loadDataUri(relativePath: string) {
   const buf = await readFile(join(process.cwd(), "public", relativePath));
@@ -23,12 +23,12 @@ async function loadDataUri(relativePath: string) {
 export default async function OgImage() {
   const [flake, nixHor, hackersLinear, ufo, hostAvatar, star] =
     await Promise.all([
-      loadDataUri("nixos-logo/flake.svg"),
-      loadDataUri("nixos-logo/horizontal.svg"),
-      loadDataUri("hackers-public-linear.svg"),
-      loadDataUri("hackers-ufo.svg"),
+      loadDataUri("nixos/flake.svg"),
+      loadDataUri("nixos/horizontal.svg"),
+      loadDataUri("hackers-public/linear-logo.svg"),
+      loadDataUri("hackers-public/ufo.svg"),
       loadDataUri("profiles/bgl-gwyng.jpg"),
-      loadDataUri("hackers-star.svg"),
+      loadDataUri("hackers-public/star.svg"),
     ]);
 
   return new ImageResponse(

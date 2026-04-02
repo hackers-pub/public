@@ -51,7 +51,7 @@ function NixHor({ className }: { className?: string }) {
 function DatePos({ className }: { className?: string }) {
   return (
     <a
-      href="/nixos-2026.ics"
+      href="/calendar/nixos-2026.ics"
       download
       className={`cursor-pointer hover:opacity-80 transition-opacity ${className}`}
     >

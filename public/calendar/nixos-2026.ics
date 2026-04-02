@@ -2,8 +2,8 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Hackers Public//Event//EN
 BEGIN:VEVENT
-DTSTART:
-DTEND:
+DTSTART;TZID=Asia/Seoul:20260419T140000
+DTEND;TZID=Asia/Seoul:20260419T180000
 SUMMARY:Hackers' Public 2026 Nix Workshop
 DESCRIPTION:Hackers' Public 2026 Nix Workshop Nix 왜 안 쓰닋?
 LOCATION:서울 성동구 상원길 26 밀크빌딩 지하1층 튜링의 사과
