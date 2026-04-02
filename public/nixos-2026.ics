@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hackers Public//Event//EN
+BEGIN:VEVENT
+DTSTART:
+DTEND:
+SUMMARY:Hackers' Public 2026 Nix Workshop
+DESCRIPTION:Hackers' Public 2026 Nix Workshop Nix 왜 안 쓰닋?
+LOCATION:서울 성동구 상원길 26 밀크빌딩 지하1층 튜링의 사과
+URL:http://public.hackers.pub/nixos/2026
+UID:2026-nixos-workshop@hackers.pub
+END:VEVENT
+END:VCALENDAR
